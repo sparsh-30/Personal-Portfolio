@@ -1,6 +1,7 @@
 import React from 'react'
 // import sanity from './sanity'
 import Navbar from './Components/Navbar';
+import Home from './Components/Home'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Home />
     </>
   );
 }

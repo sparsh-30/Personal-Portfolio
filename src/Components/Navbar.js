@@ -15,7 +15,7 @@ const Navbar = () => {
             <a className='text-xl' href="/"><BsFillMoonStarsFill /></a>
         </div>
         <div className='flex justify-center'>
-            <ul className='flex text-2xl px-8 w-3/4 backdrop-blur-sm bg-[#98A8F8] py-6 rounded-full justify-between fixed bottom-5 items-center lg:w-1/4 lg:text-md lg:py-4'>
+            <ul className='flex text-2xl px-8 w-3/4 backdrop-blur-md text-white bg-[#98A8F8] py-6 rounded-full justify-between fixed bottom-5 items-center lg:w-1/4 lg:text-md lg:py-4'>
                 <li><a href="/"><AiFillHome /></a></li>
                 <li><a href="/"><FaUser /></a></li>
                 <li><a href="/"><RiCodeSSlashLine /></a></li>

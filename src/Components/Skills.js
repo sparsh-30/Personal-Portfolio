@@ -19,9 +19,15 @@ const Skills = () => {
 
 
   return (
-    <div className='pt-16 min-h-screen bg-image'>
-        <p className='text-6xl text-center my-8'>Skills</p>
-        <div className='grid grid-cols-2 lg:grid-cols-3 mx-auto w-2/3 px-20 py-3 bg-[#F0ECE3] text-center shadow-[0_0_20px_-2px_black]'>
+    <div id="skills" className='pt-12 min-h-screen bg-image '>
+        <p className='text-6xl text-center w-fit mx-auto px-4 mt-8'>Skills</p>
+
+        <div className='flex justify-center mt-4 items-center'>
+          <div className='w-1/4 h-[5px] bg-[#C689C6] mx-auto'></div>
+          <div className='w-[50px] h-[20px] rounded-3xl bg-blue-gray-900 absolute'></div>
+        </div>
+
+        <div className='grid grid-cols-2 gap-5 lg:grid-cols-4 lg:w-2/3 mx-auto mt-12 w-10/12 px-10 py-3 bg-[#F0ECE3] text-center shadow-[0_0_20px_-2px_black] rounded-xl'>
             {
               skills.map((skill)=>{
                 return (

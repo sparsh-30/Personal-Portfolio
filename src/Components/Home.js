@@ -3,8 +3,11 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='h-screen flex justify-center items-center flex-col gap-28 lg:flex-row lg:justify-between px-24 bg-image bg-[length:100%_100%]'>
-        <div className='lg:w-2/3 text-center px-40'>
+    <div className='h-screen flex justify-center items-center flex-col gap-24 lg:flex-row lg:justify-center px-16 bg-image bg-[length:100%_100%]'>
+        <div>
+            <img className='w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] rounded-full' src={process.env.PUBLIC_URL + "/cambridge.jpg"} alt="" />
+        </div>
+        <div className='lg:w-2/5 text-center '>
             <h1 className='text-4xl pb-8'>Here comes the typing animation</h1>
             <p>This is my official portfolio to showcase all my details and work experiences.</p>
             <button className='mt-8 p-3 rounded-lg text-white bg-[#C689C6] hover:bg-black hover:scale-110 hover:transition-all'>Download CV</button>

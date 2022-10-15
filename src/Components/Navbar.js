@@ -14,15 +14,15 @@ const Navbar = () => {
             <a className='text-3xl lg:text-xl' href="/">Sparsh</a>
             <a className='text-xl' href="/"><BsFillMoonStarsFill /></a>
         </div>
-        {/* <div className='flex justify-center'>
+        <div className='flex justify-center'>
             <ul className='flex text-2xl px-8 w-3/4 backdrop-blur-xl text-white bg-[#C689C6] py-6 rounded-full justify-between fixed bottom-5 items-center lg:w-1/4 lg:text-md lg:py-4'>
-                <li><a href="/"><AiFillHome /></a></li>
-                <li><a href="/"><FaUser /></a></li>
-                <li><a href="/"><RiCodeSSlashLine /></a></li>
+                <li><a href="#"><AiFillHome /></a></li>
+                <li><a href="#about"><FaUser /></a></li>
+                <li><a href="#skills"><RiCodeSSlashLine /></a></li>
                 <li><a href="/"><BsFillBriefcaseFill /></a></li>
                 <li><a href="/"><RiContactsBook2Fill /></a></li>
             </ul>
-        </div> */}
+        </div>
     </>
   )
 }

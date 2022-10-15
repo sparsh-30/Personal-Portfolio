@@ -7,11 +7,7 @@ import Skills from './Components/Skills';
 
 function App() {
 
-  // useEffect(()=>{
-  //   sanity.fetch(`*[_type=="details"]{
-  //     name,email
-  //   }`).then((data)=>{console.log(data)});
-  // })
+  
 
 
   return (

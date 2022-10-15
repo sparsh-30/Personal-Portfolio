@@ -7,9 +7,15 @@ import Timeline from './Subcomponents/Timeline'
 
 
     return (
-      <div className='min-h-screen pt-16 bg-image'>
-        <p className='text-6xl text-center my-8'>About Me</p>
-        <div className='w-4/5 mx-auto flex flex-col justify-start shadow-[0_0_20px_-2px_black] rounded-xl'>
+      <div id='about' className='min-h-screen pt-12 bg-image'>
+        <p className='text-6xl text-center w-fit mx-auto px-4 mt-8'>About Me</p>
+
+        <div className='flex justify-center mt-4 items-center'>
+          <div className='w-1/4 h-[5px] bg-[#C689C6] mx-auto'></div>
+          <div className='w-[50px] h-[20px] rounded-3xl bg-blue-gray-900 absolute'></div>
+        </div>
+        
+        <div className='w-4/5 mx-auto mt-12 flex flex-col justify-start shadow-[0_0_20px_-2px_black] rounded-xl'>
           <div className='w-full bg-black rounded-t-xl'>
               <button className={`tab-btn ${index===0 ? "tab-btn-active":""} rounded-tl-xl`}  onClick={()=>{setIndex(0)}}>About Me</button>
               <button className={`tab-btn ${index===1 ? "tab-btn-active":""}`} onClick={()=>{setIndex(1)}}>Education</button>

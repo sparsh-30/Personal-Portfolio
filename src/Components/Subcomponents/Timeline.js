@@ -30,15 +30,7 @@ const Timeline = () => {
 				</div>
 			</div>
 			
-			<div className="single-timeline d-flex-2">
-				<div className="timeline-blank"></div>
-				<div className="timeline-text d-flex-2">
-					<span>
-						<h6>April 2020</h6> — The successful Hamedan Hardfork, supported by all AYA exchanges, aimed at integrating the dPoW algorithm, improving the security of the AYA blockchain.
-					</span>
-					<div className="t-square"></div>
-				</div>
-			</div>
+			
 			
 			<div className="single-timeline d-flex-2">
 				<div className="timeline-blank"></div>

@@ -21,7 +21,7 @@ import Timeline from './Subcomponents/Timeline'
               <button className={`tab-btn ${index===1 ? "tab-btn-active":""}`} onClick={()=>{setIndex(1)}}>Education</button>
               {/* <button className={`tab-btn ${index===2 ? "tab-btn-active":""} rounded-tr-xl`} onClick={()=>{setIndex(2)}}>Interests</button> */}
           </div>
-          <div className='w-full rounded-b-xl bg-[#F0ECE3] py-6 mb-3'>
+          <div className='w-full h-full rounded-b-xl bg-[#F0ECE3] py-6'>
               <div hidden={index!==0}><AboutMe /></div>
               <div hidden={index!==1}><Timeline /></div>
           </div>

@@ -19,7 +19,7 @@ const Navbar = () => {
                 <li><a href="#"><AiFillHome /></a></li>
                 <li><a href="#about"><FaUser /></a></li>
                 <li><a href="#skills"><RiCodeSSlashLine /></a></li>
-                <li><a href="/"><BsFillBriefcaseFill /></a></li>
+                <li><a href="#projects"><BsFillBriefcaseFill /></a></li>
                 <li><a href="/"><RiContactsBook2Fill /></a></li>
             </ul>
         </div>

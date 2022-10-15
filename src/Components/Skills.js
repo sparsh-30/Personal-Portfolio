@@ -19,7 +19,7 @@ const Skills = () => {
 
 
   return (
-    <div id="skills" className='pt-12 min-h-screen bg-image '>
+    <div id='skills' className='pt-12 min-h-screen bg-image'>
         <p className='text-6xl text-center w-fit mx-auto px-4 mt-8'>Skills</p>
 
         <div className='flex justify-center mt-4 items-center'>
@@ -34,10 +34,11 @@ const Skills = () => {
                   <div key={skill.skill_name} className='w-[100px] h-[100px] mx-auto my-6 relative'>
                     <img key={skill.skill_name} className='z-10 mx-auto w-full h-full transition duration-300 ease-in-out' src={urlFor(skill.skill_logo).url()} alt={skill.skill_name} />
 
-                    <div className='absolute -top-5 -left-5 z-50 w-[140px] h-[140px] flex justify-center items-center opacity-5 transition-all duration-300 ease-in-out hover:opacity-100 hover:bg-[rgba(0,0,0,0.6)] hover:rounded-full'>
+                    <div className='absolute -top-5 -left-5 z-50 w-[140px] h-[140px] flex justify-center items-center opacity-5 transition-all duration-300 ease-in-out hover:opacity-100 hover:bg-[rgba(161,194,152,0.8)] hover:rounded-full'>
                       <p className='text-2xl text-white'>{skill.skill_name}</p>
                     </div>
-                  </div>)
+                  </div>
+                  )
               })
             }
         </div>

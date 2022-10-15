@@ -2,6 +2,8 @@ import React from 'react'
 // import sanity from './sanity'
 import Navbar from './Components/Navbar';
 import Home from './Components/Home'
+import About from './Components/About';
+import Skills from './Components/Skills';
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
     <>
       <Navbar />
       <Home />
+      <About />
+      <Skills />
     </>
   );
 }

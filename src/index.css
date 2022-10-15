@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
+
+.tab-btn{
+    @apply w-1/2 text-white py-4 text-xl
+}
+
+.tab-btn-active{
+    @apply bg-gradient-to-r from-[rgba(61,50,255,1)] to-[rgba(255,121,232,1)]
+    /* @apply bg-[rgba(255,121,232,1)] */
+}
+
+.bg-image{
+    @apply bg-gradient-to-r from-[#d3cce3] to-[#e9e4f0]
+}
+
 @tailwind utilities;
+
+/* linear-gradient(to right, #d3cce3, #e9e4f0) */

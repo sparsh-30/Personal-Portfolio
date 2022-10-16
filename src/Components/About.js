@@ -7,7 +7,7 @@ import Timeline from './Subcomponents/Timeline'
 
 
     return (
-      <div id='about' className='min-h-screen pt-12 bg-image'>
+      <div id='about' className='min-h-screen pb-4 pt-12 bg-image'>
         <p className='text-6xl text-center w-fit mx-auto px-4 mt-8'>About Me</p>
 
         <div className='flex justify-center mt-4 items-center'>

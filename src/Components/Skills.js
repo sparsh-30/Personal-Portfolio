@@ -19,7 +19,7 @@ const Skills = () => {
 
 
   return (
-    <div id='skills' className='pt-12 min-h-screen bg-image'>
+    <div id='skills' className='pt-12 min-h-screen pb-4 bg-image'>
         <p className='text-6xl text-center w-fit mx-auto px-4 mt-8'>Skills</p>
 
         <div className='flex justify-center mt-4 items-center'>

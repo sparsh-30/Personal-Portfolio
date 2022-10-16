@@ -10,7 +10,10 @@ const Home = () => {
         <div className='lg:w-2/5 text-center '>
             <h1 className='text-4xl pb-8'>Here comes the typing animation</h1>
             <p>This is my official portfolio to showcase all my details and work experiences.</p>
-            <button className='mt-8 p-3 rounded-lg text-white bg-[#C689C6] hover:bg-black hover:scale-110 hover:transition-all'>Download CV</button>
+            <div className=''>
+                <button className='mt-8 mx-2 p-3 rounded-lg text-white bg-[#C689C6] hover:bg-black hover:scale-110 hover:transition-all'>Download CV</button>
+                <a href="#contact"><button className='mt-8 mx-2 p-3 rounded-lg text-white bg-[#C689C6] hover:bg-black hover:scale-110 hover:transition-all'>Let's Connect</button></a>
+            </div>
         </div>
         {/* <motion.div className='lg:w-1/2'
             animate={{

@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
 .tab-btn{
     @apply w-1/2 text-white py-4 text-xl
 }
